@@ -1,7 +1,7 @@
 {
-  "name": "my-first-npm",
+  "name": "@panpan31415/my-first-npm",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -27,5 +27,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "repository": "git://github.com/panpan31415/my-first-npm/"
 }
