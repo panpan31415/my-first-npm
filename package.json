@@ -2,16 +2,13 @@
   "name": "@panpan31415/my-first-npm",
   "version": "0.1.2",
   "private": false,
-  "dependencies": {
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
-  },
+  "dependencies": {},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepublishOnly": "babel ./src --out-dir ./dist -s inline"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -28,5 +25,14 @@
       "last 1 safari version"
     ]
   },
-  "repository": "git://github.com/panpan31415/my-first-npm/"
+  "repository": "git://github.com/panpan31415/my-first-npm/",
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "^3.1.1"
+  }
 }
